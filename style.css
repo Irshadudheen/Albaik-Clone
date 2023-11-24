@@ -1,0 +1,302 @@
+body{
+margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    
+}
+.head{
+    width: 100%;
+    min-height: 606px;
+    background: url('Image/image\ size.jpg');
+    color: white;
+     background-attachment: fixed ;
+    font-family: Source Sans Pro, sans-serif;
+    
+    box-shadow: inset 0 0 0 1000px rgb(97, 109, 117,0.8);
+    
+    
+}
+.backgroundimg{
+align-items: flex;
+}
+.logo{
+    padding-left: 455px;
+    padding-top: 29px;
+    cursor: pointer;
+    display: flex;
+
+}
+.container{
+    max-width: 100%;
+    min-height: 616px;
+     background: white; 
+   background:  linear-gradient(180deg, #ffffff 50%, rgba(221, 229, 206, 0.3) 50%);
+   
+}
+.list-item{
+    margin-right:30px ;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+h1{
+    font-size: 50px;
+}
+.text-1{
+    padding-top: 180px;
+    padding-left: 510px;
+}
+.text-2{
+    color: #dde5ce;
+    padding-left: 330px;
+}
+.text-3{
+    padding-left: 530px;
+    
+}
+.photo{
+    width: 540px;
+    height: 300px;
+    background:url(Image/image\ size-new.jpg);
+    margin-left: 20px;
+    border-radius: 6px;
+    margin-top: 110px;
+    float: left;
+
+}
+.text{
+    width: 588px;
+    height: 300px;
+    float: right;
+    background:rgba(0,0,0,0);
+    margin-right: 20px;
+    margin-top: 96px;
+    font-family: Source Sans Pro, sans-serif;
+
+
+    
+}
+.image-text{
+    width: 100%;
+    height: 400px;
+
+}
+.paragrapha{
+    font-size: 20px;
+    color: #75704e;
+
+
+}
+.second-text{
+    font-family: Oswald, sans-serif;
+    font-weight: bolder;
+    font-size: 29px;
+    color: #465362;
+}
+.third-text{
+     font-size: 18px; 
+}
+.history:hover{
+    color: #75704e;
+}
+.container-1{
+    width: 100%;
+    height: 1220px;
+    
+}
+.difference{
+    color: #75704e;
+    
+    letter-spacing: 0.6em;
+    
+    font-weight: 600;
+    font-family: sans-serif;
+}.difference-main{
+    width: 300px;
+    height: 20px;
+    margin-top: 180px;
+    margin-left: 476px;
+    
+}
+.headline{
+    float: left;
+    color: #465362;
+    
+    height: 50px;
+    
+}
+.headline-1{
+    font-size: 30px;
+    padding-left: 360px;
+}
+.map{
+    width: 1160px;
+    height: 420px;
+    padding-top: 80px;
+    padding-left: 30px;
+
+}
+.about{
+    width: 100px;
+    height: 150px;
+    background: green;
+    border-radius: 6px;
+    margin-left: 767px;
+}
+.button{
+width: 150px;
+height: 50px;
+border: solid#465362;;
+margin-left: 550px;
+margin-top: 100px;
+display: flex;
+border-width: 4px;
+color: #465362;
+cursor: pointer;
+}
+.button:hover{
+    border:solid #9fb8ad;;
+    border-width: 4px;
+    color: #9fb8ad;;
+}
+.icon{
+    float: left;
+    
+}
+.font-awesome{
+    width: 900px;
+    
+    margin-left: 200px;
+    height: 75px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.text-font-icon{
+    width: 100%;
+    height: 300px;
+    
+}
+.text-main{
+    width: 1185px;
+    height: 214px;
+    margin-left: 28px;
+    
+    display: flex;
+}
+.text-min-1{
+    width: 366.6px;
+    height: 214px;
+    
+    float: left;
+    
+    margin-left: 50px;
+}
+.text-min-2{
+    width: 366.6px;
+    height: 214px;
+    
+    
+   
+
+
+}
+.text-min-3{
+    width: 350.6px;
+    
+    height: 214px;
+    
+    margin-left: 90px;
+    
+
+}
+.button-1{
+    width: 150px;
+height: 50px;
+border: solid#465362;;
+margin-left: 550px;
+margin-top: 50px;
+display: flex;
+border-width: 4px;
+color: #465362;
+cursor: pointer;
+
+}
+.button-1:hover{
+    border:solid #9fb8ad;;
+    border-width: 4px;
+    color: #9fb8ad;;
+
+}
+.image{
+    width: 100%;
+    height:526px ;
+    background:url(Image/java-home-2.jpg);
+    box-shadow: inset 0 0 0 1000px rgb(150, 145, 89,0.5);
+    
+
+}
+.container-3{
+    width: 100%;
+    height: 547px;
+    background: #465362;
+    
+}
+.container-4{
+    width:100% ;
+    height: 74px;
+    background:#3c4956;
+}
+.heading{
+    padding-left: 310px;
+    padding-top: 200px;
+    font-size: 22px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+letter-spacing: 0.10em;
+}
+.button-3{
+    width: 290px;
+    height: 50px;
+    border: solid#ffffff;;
+    margin-left: 330px;
+    display: flex;
+    float: left;
+    border-width: 4px;
+    color: #ffffff;
+    cursor: pointer;
+    letter-spacing: 0.10em;
+    
+}
+.button-4{
+    width: 290px;
+    height: 50px;
+    border: solid#ffffff;;
+    margin-left:10px ;
+    display: flex;
+    float: left;
+    letter-spacing: 0.10em;
+    border-width: 4px;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+.button-3:hover{
+    border:solid#dde5ce;;
+    border-width: 4px;
+    color: #dde5ce;;
+
+}
+.button-4:hover{
+    border:solid #dde5ce;;
+    border-width: 4px;
+    color: #dde5ce;;
+
+}
+.fa-square-whatsapp{
+    color: rgb(17, 255, 0);
+    font-size: 32px;
+}
