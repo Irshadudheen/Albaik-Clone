@@ -6,7 +6,7 @@ margin: 0;
     position: absolute;
     
 }
-.head{
+.head {
     width: 100%;
     min-height: 606px;
     background: url('Image/image\ size.jpg');
@@ -404,4 +404,33 @@ ul li :hover ul.dropdown{
     display: block;
     
     
+}
+.material-symbols-outlined{
+    color: #fff;
+    font-size: 1.5rem;
+    transition: 0.2s ease-out;
+}
+/* back to top */
+html{
+    scroll-behavior: smooth;
+}
+.back-to-top{
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    background-color: #9fb8ad;;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    transition: 0.2s ease-out;
+}
+.back-to-top:hover{
+    background-color: #465362;
+}
+.back-to-top:hover span{
+    transform: translateY(-4px);
+
 }
