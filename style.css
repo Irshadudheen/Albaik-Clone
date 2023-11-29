@@ -1,3 +1,4 @@
+/* body-section */
 body{
 margin: 0;
     width: 100%;
@@ -6,12 +7,16 @@ margin: 0;
     position: absolute;
     
 }
+/* header-section */
 .head {
     width: 100%;
-    min-height: 606px;
+    height: 606px;
     background: url('Image/image\ size.jpg');
     color: white;
      background-attachment: fixed ;
+     background-repeat: no-repeat;
+
+     background-size: cover;
     font-family: Source Sans Pro, sans-serif;
     
     
@@ -19,9 +24,11 @@ margin: 0;
     
     
 }
+/* backgrond-image */
 .backgroundimg{
 align-items: flex;
 }
+/* albaik-logo */
 .logo{
     padding-left: 455px;
     padding-top: 29px;
@@ -44,6 +51,36 @@ align-items: flex;
     
     
 }
+/* drop-down-list */
+a{
+    text-decoration: none;
+    color: #ffffff;
+
+
+}
+ul li ul.dropdown li{
+display: block;
+color: #616161;
+}
+ul li ul.dropdown{
+width: 50px;
+height: 140px;
+margin-left: 50px;
+padding-right: 60px;
+position: absolute;
+font-size: small;
+padding-top: 20px;
+display: none;
+
+background: white;
+}
+
+ul li :hover ul.dropdown{
+    display: block;
+    
+    
+}
+/* headline of site */
 h1{
     font-size: 50px;
 }
@@ -376,34 +413,6 @@ letter-spacing: 0.10em;
 }
 .grey-1:hover{
     color: black;
-}
-a{
-    text-decoration: none;
-    color: #ffffff;
-
-
-}
-ul li ul.dropdown li{
-display: block;
-color: #616161;
-}
-ul li ul.dropdown{
-width: 50px;
-height: 140px;
-margin-left: 50px;
-padding-right: 60px;
-position: absolute;
-font-size: small;
-padding-top: 20px;
-display: none;
-
-background: white;
-}
-
-ul li :hover ul.dropdown{
-    display: block;
-    
-    
 }
 .material-symbols-outlined{
     color: #fff;
